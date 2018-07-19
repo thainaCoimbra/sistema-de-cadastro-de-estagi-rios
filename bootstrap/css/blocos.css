@@ -1,0 +1,41 @@
+﻿
+.square-service-block{
+	position:relative;
+	overflow:hidden;
+	margin:15px auto;
+
+	}
+.square-service-block a {
+  
+  border-radius: 5px;
+  display: block;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+}
+.square-service-block a:link, a:visited, a:active {
+  text-decoration: none;
+
+}
+.square-service-block a:hover{
+  border-radius: 5px;
+  text-decoration: underline;  
+  font-size:150%;
+  transform: scale(1.4); 
+}
+
+.ssb-icon {
+  color: #fff;
+  display: inline-block;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+h2.ssb-title {
+  color: black;
+  font-size: 17px;
+  font-weight: 200px;
+  margin:0;
+  padding:0;
+  text-transform: uppercase;
+}

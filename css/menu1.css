@@ -1,0 +1,75 @@
+nav{
+    background-image: linear-gradient( to bottom,#9C9C9C 50%, #E8E8E8 100% );
+    top: 0;
+    width: 40%;
+    height: 7%;
+    border-radius: 17px;
+    opacity: 0.4;
+}
+
+.menuTC{
+    width: 98%;
+    margin: auto;
+}
+
+.menuTC ul li{ 
+    display: inline-block;
+}
+
+.menuTC ul li a{
+    display:block;
+    color:#fff;
+    padding:13px 20px;
+    text-decoration: none;
+}
+
+.menuTC ul li a:link{
+    color:white;
+}
+.menuTC ul li a:hover{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:white;
+}
+
+.item6{
+    float: right;
+}
+
+
+.logoTC img{
+    padding-right: 0;
+    float: left;
+    
+}
+
+.nome{
+    float: right;
+    
+}
+body{
+    background-image: linear-gradient( to bottom, #E8E8E8 0%, #E8E8E8 100% );
+    height: auto;
+}
+a .tooltiptext {
+    font-size: 12px;
+    visibility: hidden;
+    width: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+a:hover .tooltiptext {
+    visibility: visible;
+}
+
+table  {
+    background-image: linear-gradient( to left, #CFCFCF, #E8E8E8, #CFCFCF );
+}
